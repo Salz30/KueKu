@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KueKu</string>
+    <string-array name="kue_options">
+        <item>Opaa Coin Original</item>
+        <item>Opaa Coin Coklat</item>
+        <item>Opaa Coin Keju</item>
+    </string-array>
+
+    <string-array name="pengeluaran_categories">
+        <item>Bahan Baku</item>
+        <item>Listrik</item>
+        <item>Sewa Tempat</item>
+        <item>Gaji Karyawan</item>
+        <item>Lain-lain</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "578435537307",
+    "project_id": "kueku-a7737",
+    "storage_bucket": "kueku-a7737.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578435537307:android:72334dfa9c3a0c044d693e",
+        "android_client_info": {
+          "package_name": "com.example.kueku"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTHTug3Uk0dvLIXD7sUgG2ggxx4F5TlGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

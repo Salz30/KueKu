@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="Dasbor" />
+    <item
+        android:id="@+id/nav_order"
+        android:icon="@drawable/ic_order"
+        android:title="Pemesanan" />
+    <item
+        android:id="@+id/nav_finance"
+        android:icon="@drawable/ic_finance"
+        android:title="Keuangan" />
+    <!-- Anda bisa menambahkan item lain jika diperlukan, seperti "Timer" -->
+</menu>
