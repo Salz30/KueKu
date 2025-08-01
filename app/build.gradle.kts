@@ -56,4 +56,5 @@ dependencies {
     implementation("androidx.navigation:navigation-ui-ktx:2.7.7")     // Untuk Fragment dan Navigasi
     implementation("com.google.android.material:material:1.12.0") // Untuk Bottom Navigation View
     implementation("androidx.cardview:cardview:1.0.0")
+    implementation ("androidx.core:core-splashscreen:1.0.1") // Gunakan versi stabil terbaru
 }

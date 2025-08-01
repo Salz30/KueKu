@@ -101,7 +101,7 @@
                     android:text="Rp 0"
                     android:textSize="20sp"
                     android:textStyle="bold"
-                    android:textColor="@color/design_default_color_primary"
+                    android:textColor="@color/black"
                     android:layout_marginBottom="16dp"/>
 
                 <Button
@@ -109,7 +109,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Tambah Pesanan"
-                    android:backgroundTint="@color/design_default_color_primary"
+                    android:backgroundTint="@color/my_primary_color"
                     android:textColor="@android:color/white"
                     android:padding="12dp"/>
 

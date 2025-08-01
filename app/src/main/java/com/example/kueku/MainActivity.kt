@@ -6,6 +6,7 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar // Import Toolbar
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.google.firebase.auth.FirebaseAuth
@@ -14,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var mAuth: FirebaseAuth
     private lateinit var bottomNavigationView: BottomNavigationView
+    private lateinit var toolbar: Toolbar // Deklarasi Toolbar
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -21,8 +23,11 @@ class MainActivity : AppCompatActivity() {
 
         mAuth = FirebaseAuth.getInstance()
         bottomNavigationView = findViewById(R.id.bottom_navigation)
+        toolbar = findViewById(R.id.toolbar) // Inisialisasi Toolbar
+        setSupportActionBar(toolbar) // SET TOOLBAR SEBAGAI ACTION BAR
 
-        // Set fragment default saat aplikasi pertama kali dibuka
+        // ... (Kode lainnya seperti setup fragment default dan setOnItemSelectedListener) ...
+
         if (savedInstanceState == null) {
             loadFragment(DashboardFragment())
         }
@@ -46,7 +51,8 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    // UBAH DARI PRIVATE MENJADI PUBLIC
+    // ... (Fungsi loadFragment dan selectBottomNavItem tidak berubah) ...
+
     public fun loadFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
             .replace(R.id.fragment_container, fragment)
@@ -59,6 +65,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // Fungsi ini yang meng-inflate menu
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.main_activity_menu, menu)
         return true

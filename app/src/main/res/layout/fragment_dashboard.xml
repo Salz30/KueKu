@@ -65,7 +65,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Lihat Detail Pesanan"
-                    android:backgroundTint="@color/design_default_color_primary"
+                    android:backgroundTint="@color/my_primary_color"
                     android:textColor="@android:color/white"
                     android:padding="12dp"/>
 
@@ -117,7 +117,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Lihat Laporan Keuangan"
-                    android:backgroundTint="@android:color/holo_green_dark"
+                    android:backgroundTint="@color/my_primary_color"
                     android:textColor="@android:color/white"
                     android:padding="12dp"/>
 
